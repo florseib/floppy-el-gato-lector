@@ -1,0 +1,39 @@
+body {
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    background-color: #ffc446;
+    width: 80%;
+    border-radius: 30px;
+    padding: 20px 60px;
+    box-sizing: border-box;
+}
+
+.hero .hero-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .hero-images {
+    border-top: 1px solid #4681ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-height: 500px;
+}
+
+.hero .hero-images h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        width: 90%;
+        padding: 10px 30px;
+    }
+}
