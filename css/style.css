@@ -78,13 +78,13 @@ footer {
 }
 
 @media (max-width: 768px) {
-    body {
+    /* body {
         padding-top: 85px;
     }
 
     header {
         height: 70px;
-    }
+    } */
 
     .account-links {
         width: 60%;
